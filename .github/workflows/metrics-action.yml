@@ -15,6 +15,7 @@ jobs:
           # Options
           user: therzka
           template: markdown
+          markdown: https://raw.githubusercontent.com/lowlighter/metrics/master/source/templates/markdown/example.md
           base: activity, metadata
           config_timezone: America/Los_Angeles
           plugin_isocalendar: yes
