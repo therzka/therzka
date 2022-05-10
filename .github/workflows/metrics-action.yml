@@ -18,6 +18,8 @@ jobs:
           markdown: https://raw.githubusercontent.com/lowlighter/metrics/master/source/templates/markdown/example.md
           base: activity, metadata
           config_timezone: America/Los_Angeles
+          config_display: columns
+          repositories_affiliations: contributor
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_lines: yes
