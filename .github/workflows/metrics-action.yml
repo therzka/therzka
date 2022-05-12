@@ -18,15 +18,75 @@ jobs:
           base: activity, metadata
           base_indepth: yes
           config_timezone: America/Los_Angeles
-          config_display: columns
-          repositories_affiliations: contributor
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-          plugin_lines: yes
+          
+  habits:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: github-habits.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          config_timezone: America/Los_Angeles
+          user: therzka
+          base: ""
+          template: classic
           plugin_habits: yes
-          plugin_habits_trim: yes
+          plugin_habits_from: 200       # Use 200 events to compute habits
+          plugin_habits_days: 14        # Keep only events from last 14 days
+          plugin_habits_charts: yes     # Display charts section
+          plugin_habits_trim: yes       # Trim unused hours on daily chart
           plugin_habits_facts: yes
+          
+  lang:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: github-langs.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          config_timezone: America/Los_Angeles
+          user: therzka
+          base: ""
           plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot, vue, ejs
           plugin_languages_details: lines, percentage
           plugin_languages_sections: most-used, recently-used
           plugin_languages_indepth: yes
+
+  repositories:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: repositories.svg
+          # You'll need to setup a personal token in your secrets.
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Options
+          user: therzka
+          template: classic
+          base: repositories
+          config_timezone: America/Los_Angeles
+          repositories_affiliations: contributor
+    
+  iso_calender:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: iso_calender.svg
+          # You'll need to setup a personal token in your secrets.
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Options
+          user: therzka
+          template: classic
+          base: ""
+          config_timezone: America/Los_Angeles
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
