@@ -27,7 +27,7 @@ jobs:
           plugin_lines: yes
           repositories_affiliations: contributor
           extra_css: |
-            background {
-              color: black
+            pre {
+              background: black
             }
   
