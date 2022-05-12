@@ -3,10 +3,8 @@
 	
   </div>
   
-<div>
-<img src="./github-metrics.svg">
-<img src="./iso_calender.svg">
-	</div>
+
+<img align="center" src="./github-metrics.svg">
 
 
 
