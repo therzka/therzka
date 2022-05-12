@@ -14,9 +14,9 @@ jobs:
 
           # Options
           user: therzka
-          template: markdown
-          markdown: https://raw.githubusercontent.com/lowlighter/metrics/master/source/templates/markdown/example.md
+          output_action: commit
           base: activity, metadata
+          base_indepth: yes
           config_timezone: America/Los_Angeles
           config_display: columns
           repositories_affiliations: contributor
@@ -26,4 +26,7 @@ jobs:
           plugin_habits: yes
           plugin_habits_trim: yes
           plugin_habits_facts: yes
-          
+          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot, vue, ejs
+          plugin_languages_details: lines, percentage
+          plugin_languages_sections: most-used, recently-used
+          plugin_languages_indepth: yes
