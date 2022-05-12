@@ -28,6 +28,6 @@ jobs:
           repositories_affiliations: contributor
           extra_css: |
             pre {
-              background: black
+              background: "black";
             }
   
