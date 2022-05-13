@@ -14,7 +14,6 @@ jobs:
 
           # Options
           user: therzka
-          template: terminal
           base: header, activity
           base_indepth: yes
           config_padding: 0,10 + 11%
