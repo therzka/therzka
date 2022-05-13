@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://user-images.githubusercontent.com/7219923/167728165-cbb955a1-0439-44d5-83da-628ee1534a0b.png">
+    <img src="./img/talibanner.png">
 </div>
 <br>
 <br>
@@ -17,7 +17,6 @@
         &nbsp&nbsp&nbsp
         <a href="https://taliherzka.com"><img align="center" src="./img/iconmonstr-globe-thin-48.png" alt="website: thttps://taliherzka.com>" height="40" /></a>
     </div>
-    <br \>
     <br \>
     <h3 align="center">Connect with my parrot 🦜 </h3>
         <div align="center" display="block">
