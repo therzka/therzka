@@ -4,9 +4,6 @@
 <br>
 <br>
 
-<p align="center"><img src="./github-metrics.svg"></p>
-
-
 <h3 align="center">Connect with me:</h3>
     <div align="center" display="block">
         <a href="https://linkedin.com/in/taliherzka" target="blank"><img align="center" src="./img/iconmonstr-linkedin-3-48.png" alt="LinkedIn: www.linkedin.com/in/taliherzka" height="40" /></a>
