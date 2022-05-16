@@ -14,9 +14,7 @@ jobs:
 
           # Options
           user: therzka
-          config_padding: 0,10 + 11%
           config_timezone: America/Los_Angeles
-          plugin_base_indepth: yes
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           plugin_habits: yes
