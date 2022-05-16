@@ -14,19 +14,29 @@ jobs:
 
           # Options
           user: therzka
-          base: header, activity
-          base_indepth: yes
           config_padding: 0,10 + 11%
           config_timezone: America/Los_Angeles
           plugin_base_indepth: yes
-          plugin_introduction: yes
-          plugin_introduction_title: yes
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
-          plugin_lines: yes
-          repositories_affiliations: contributor
-          extra_css: |
-            pre {
-              background: "black";
+          plugin_habits: yes
+          plugin_habits_trim: yes
+          plugin_habits_charts_type: chartist
+          plugin_followup: yes
+          plugin_followup_sections: user
+          plugin_followup_indepth: yes
+          plugin_stars: yes
+          plugin_stars_limit: 3
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          extras_css: |
+            h1, h2, h3 {
+              color: #ceaded;
+            }
+            .field svg {
+              color: #ceaded;
+            }
+            .field {
+              color: #beb4d3;
             }
   
