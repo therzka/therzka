@@ -20,9 +20,6 @@ jobs:
           plugin_habits: yes
           plugin_habits_trim: yes
           plugin_habits_charts_type: chartist
-          plugin_followup: yes
-          plugin_followup_sections: user
-          plugin_followup_indepth: yes
           plugin_stars: yes
           plugin_stars_limit: 3
           plugin_achievements: yes
