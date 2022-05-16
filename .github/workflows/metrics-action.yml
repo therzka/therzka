@@ -14,6 +14,7 @@ jobs:
 
           # Options
           user: therzka
+          base: ""
           config_timezone: America/Los_Angeles
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
