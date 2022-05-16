@@ -2,7 +2,10 @@
     <img src="./img/talibanner.png">
 </div>
 <br>
-<br>
+
+<div align="center">
+    <img src="github-metrics.svg">
+</div>
 
 <h3 align="center">Connect with me:</h3>
     <div align="center" display="block">
