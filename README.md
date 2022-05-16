@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="./img/talibanner.png">
+    <img src="./img/talibanner.gif">
 </div>
 <br>
 
