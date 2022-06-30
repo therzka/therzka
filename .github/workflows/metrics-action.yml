@@ -1,8 +1,7 @@
 name: Metrics
 on:
-  # Schedule updates every day
-  schedule: [{cron: "0 8 * * *"}]
-  # Lines below let you run workflow manually and on each commit
+  # Schedule updates every monday at 1:00 UTC
+  schedule: [{cron: "0 1 * * 1"}]
   workflow_dispatch:
 jobs:
   github-metrics:
@@ -16,11 +15,9 @@ jobs:
           user: therzka
           base: ""
           config_timezone: America/Los_Angeles
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
           plugin_habits: yes
-          plugin_habits_trim: yes
-          plugin_habits_charts_type: chartist
+          plugin_habits_from: 999
+          plugin_habits_days: 30
           plugin_stars: yes
           plugin_stars_limit: 3
           plugin_achievements: yes
