@@ -11,7 +11,7 @@
     <div align="center" display="block">
         <a href="https://linkedin.com/in/taliherzka" target="blank"><img align="center" src="./img/iconmonstr-linkedin-3-48.png" alt="LinkedIn: www.linkedin.com/in/taliherzka" height="40" /></a>
         &nbsp&nbsp&nbsp
-        <a href="https://https://hachyderm.io/@Tali" rel="me" target="blank"><img align="center" src="./img/mastodon.png" alt="Mastodon: www.twitter.com/therzka" height="40" /></a>
+        <a href="https://hachyderm.io/@Tali" rel="me" target="blank"><img align="center" src="./img/mastodon.png" alt="Mastodon: www.twitter.com/therzka" height="40" /></a>
         &nbsp&nbsp&nbsp
         <a href="https://twitter.com/therzka" target="blank"><img align="center" src="./img/iconmonstr-twitter-3-48.png" alt="Twitter: www.twitter.com/therzka" height="40" /></a>
         &nbsp&nbsp&nbsp
