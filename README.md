@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="./img/talibanner.gif">
+   <h2>Hello I'm Tali and I work on the website you are currently viewing.</h3>
 </div>
 <br>
 
