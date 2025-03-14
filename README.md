@@ -1,6 +1,4 @@
-<div align="center">
-   <h2>Hello I'm Tali and I work on the website you are currently viewing.</h3>
-</div>
+# Hello I'm Tali and I work on the website you are currently viewing.
 <br>
 
 <div align="center">
