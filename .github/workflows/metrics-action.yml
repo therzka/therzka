@@ -1,4 +1,4 @@
-name: Metrics
+ name: Metrics
 on:
   # Schedule updates every monday at 1:00 UTC
   schedule: [{cron: "0 1 * * 1"}]
@@ -27,6 +27,6 @@ jobs:
               color: #ceaded;
             }
             .field {
-              color: #beb4d3;
+              color: #6e5999;
             }
   
