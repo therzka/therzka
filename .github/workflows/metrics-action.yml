@@ -17,8 +17,8 @@ jobs:
           config_timezone: America/Los_Angeles
           plugin_stars: yes
           plugin_stars_limit: 5
-          plugin_achievements: no
           plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
           extras_css: |
             h1, h2, h3 {
               color: #A654FF;
