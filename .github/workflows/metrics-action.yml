@@ -7,7 +7,7 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
@@ -15,10 +15,9 @@ jobs:
           user: therzka
           base: ""
           config_timezone: America/Los_Angeles
+          config_display: large
           plugin_stars: yes
           plugin_stars_limit: 5
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
           extras_css: |
             h1, h2, h3 {
               color: #A654FF;
