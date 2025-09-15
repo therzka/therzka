@@ -1,4 +1,4 @@
- name: Metrics
+name: Metrics
 on:
   # Schedule updates every monday at 1:00 UTC
   schedule: [{cron: "0 1 * * 1"}]
@@ -18,7 +18,7 @@ jobs:
           plugin_stars: yes
           plugin_stars_limit: 5
           plugin_achievements: no
-          plugin_achievements_display: compact
+          plugin_isocalendar: yes
           extras_css: |
             h1, h2, h3 {
               color: #ceaded;
