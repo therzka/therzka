@@ -21,12 +21,12 @@ jobs:
           plugin_isocalendar: yes
           extras_css: |
             h1, h2, h3 {
-              color: #ceaded;
+              color: #A654FF;
             }
             .field svg {
-              color: #ceaded;
+              color: #A654FF;
             }
             .field {
-              color: #6e5999;
+              color: #A654FF;
             }
   
