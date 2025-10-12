@@ -15,9 +15,8 @@ jobs:
           user: therzka
           base: ""
           config_timezone: America/Los_Angeles
-          config_display: large
           plugin_stars: yes
-          plugin_stars_limit: 5
+          plugin_stars_limit: 8
           extras_css: |
             h1, h2, h3 {
               color: #A654FF;
