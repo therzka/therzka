@@ -13,7 +13,7 @@
         &nbsp&nbsp&nbsp
         <a href="mailto:taliherzka@gmail.com"><img align="center" src="./img/iconmonstr-mail-thin-48.png" alt="email: taliherzka@gmail.com" height="40" /></a>
         &nbsp&nbsp&nbsp
-        <a href="https://taliherzka.com"><img align="center" src="./img/iconmonstr-globe-thin-48.png" alt="website: thttps://taliherzka.com>" height="40" /></a>
+        <a href="https://tali.omg.lol"><img align="center" src="./img/iconmonstr-globe-thin-48.png" alt="website: thttps://tali.omg.lol>" height="40" /></a>
     </div>
     <br \>
     <h3 align="center">Connect with my parrot 🦜 </h3>
