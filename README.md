@@ -1,4 +1,31 @@
 # Hello I'm Tali and I work on the website you are currently viewing.
+
+## ✨ Fibonacci — no cap, it slaps
+
+This repo includes a Gen-Z flavoured Fibonacci calculator in [`fibonacci.py`](./fibonacci.py).
+
+```python
+from fibonacci import fib
+
+fib(0)   # → 0
+fib(1)   # → 1
+fib(10)  # → 55
+fib(50)  # → 12586269025
+```
+
+Run the demo:
+```bash
+python fibonacci.py
+```
+
+Run the tests (requires `pytest`):
+```bash
+pip install pytest
+python -m pytest test_fibonacci.py -v
+```
+
+**Input constraints:** `n` must be a non-negative integer; passing `n < 0` raises a `ValueError`.  
+**Complexity:** O(n) time, O(1) space — iterative, bestie. 💅
 <br>
 
 <div align="center">
