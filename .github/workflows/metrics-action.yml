@@ -16,15 +16,15 @@ jobs:
           base: ""
           config_timezone: America/Los_Angeles
           plugin_stars: yes
-          plugin_stars_limit: 8
+          plugin_stars_limit: 6
           extras_css: |
             h1, h2, h3 {
-              color: #A56DFF;
+              color: #A654FF;
             }
             .field svg {
-              color: #A56DFF;
+              color: #A654FF;
             }
             .field {
-              color: #A56DFF;
+              color: #A654FF;
             }
   
