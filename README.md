@@ -7,16 +7,14 @@
 
 <h3 align="center">Connect with me:</h3>
     <div align="center" display="block">
-        <a href="https://linkedin.com/in/taliherzka" target="blank"><img align="center" src="./img/iconmonstr-linkedin-3-48.png" alt="LinkedIn: www.linkedin.com/in/taliherzka" height="40" /></a>
+        <a href="https://linkedin.com/in/taliherzka" target="blank"><picture><source media="(prefers-color-scheme: dark)" srcset="./img/linkedin-light.svg"><source media="(prefers-color-scheme: light)" srcset="./img/linkedin-dark.svg"><img align="center" src="./img/linkedin-dark.svg" alt="LinkedIn: www.linkedin.com/in/taliherzka" height="40" /></picture></a>
         &nbsp&nbsp&nbsp
-        <a href="https://hachyderm.io/@Tali" rel="me" target="blank"><img align="center" src="./img/mastodon.png" alt="Mastodon: https://hachyderm.io/@Tali" height="40" /></a>
+        <a href="mailto:taliherzka@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./img/mail-light.svg"><source media="(prefers-color-scheme: light)" srcset="./img/mail-dark.svg"><img align="center" src="./img/mail-dark.svg" alt="email: taliherzka@gmail.com" height="40" /></picture></a>
         &nbsp&nbsp&nbsp
-        <a href="mailto:taliherzka@gmail.com"><img align="center" src="./img/iconmonstr-mail-thin-48.png" alt="email: taliherzka@gmail.com" height="40" /></a>
-        &nbsp&nbsp&nbsp
-        <a href="https://tali.omg.lol"><img align="center" src="./img/iconmonstr-globe-thin-48.png" alt="website: thttps://tali.omg.lol>" height="40" /></a>
+        <a href="https://tali.omg.lol"><picture><source media="(prefers-color-scheme: dark)" srcset="./img/globe-light.svg"><source media="(prefers-color-scheme: light)" srcset="./img/globe-dark.svg"><img align="center" src="./img/globe-dark.svg" alt="website: https://tali.omg.lol" height="40" /></picture></a>
     </div>
     <br \>
     <h3 align="center">Connect with my parrot 🦜 </h3>
         <div align="center" display="block">
-            <a href="https://instagram.com/featheredmango" target="blank"><img align="center" src="./img/iconmonstr-instagram-13-48.png" alt="LinkedIn: www.instagram.com/featheredmango" height="40" /></a>
+            <a href="https://instagram.com/featheredmango" target="blank"><picture><source media="(prefers-color-scheme: dark)" srcset="./img/instagram-light.svg"><source media="(prefers-color-scheme: light)" srcset="./img/instagram-dark.svg"><img align="center" src="./img/instagram-dark.svg" alt="Instagram: www.instagram.com/featheredmango" height="40" /></picture></a>
         </div>

@@ -19,12 +19,12 @@ jobs:
           plugin_stars_limit: 8
           extras_css: |
             h1, h2, h3 {
-              color: #A654FF;
+              color: #A56DFF;
             }
             .field svg {
-              color: #A654FF;
+              color: #A56DFF;
             }
             .field {
-              color: #A654FF;
+              color: #A56DFF;
             }
   
